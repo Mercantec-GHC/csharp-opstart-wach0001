@@ -7,6 +7,7 @@ int sophia3 = 98;
 int sophia4 = 95;
 int sophia5 = 100;
 
+
 int nicolas1 = 80;
 int nicolas2 = 83;
 int nicolas3 = 82;
@@ -24,3 +25,11 @@ int jeong2 = 92;
 int jeong3 = 98;
 int jeong4 = 100;
 int jeong5 = 97;
+
+
+Console.WriteLine("Student \t Grade");
+Console.WriteLine($"Sophia \t \t {(sophia1 + sophia2 + sophia3 + sophia4 + sophia5) / 5m} A");
+Console.WriteLine($"Nicolas \t {(nicolas1 + nicolas2 + nicolas3 + nicolas4 + nicolas5) / 5m} B");
+Console.WriteLine($"Zahirah \t {(zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5) / 5m} B");
+Console.WriteLine($"Jeong \t \t {(jeong1 + jeong2 + jeong3 + jeong4 + jeong5) / 5m} A");
+

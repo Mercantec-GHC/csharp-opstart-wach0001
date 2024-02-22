@@ -1,5 +1,5 @@
-﻿
-/*Random dice = new Random();
+﻿using System;
+var dice = new Random();
 
 
 int roll1 = dice.Next(1, 7);
@@ -33,4 +33,3 @@ else
 {
     Console.WriteLine("Sorry, you lose.");
 }
-*/
